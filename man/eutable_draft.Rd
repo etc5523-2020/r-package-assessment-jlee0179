@@ -8,7 +8,7 @@
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 236 rows and 7 columns.
 }
 \source{
-Our World in Data
+\href{https://ourworldindata.org/coronavirus-source-data}{Our World in Data}
 }
 \usage{
 eutable_draft

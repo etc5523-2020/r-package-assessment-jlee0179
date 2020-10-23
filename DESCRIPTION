@@ -13,8 +13,12 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
-    R (>= 2.10),
-    shiny
+    R (>= 2.10)
 Imports: 
     tibble,
-    ggplot2
+    ggplot2,
+    shiny
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

@@ -1,0 +1,24 @@
+---
+title: "Our World in Data: Coronavirus"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Our World in Data: Coronavirus}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(covideu)
+```
+
+### Launching the app
+Within `covideu` package, a function called `launch_app()` is designed for launching the shiny app. This can be easily done by simply typing `launch_app()` in the console, without any argument.
+
+### What the app does
