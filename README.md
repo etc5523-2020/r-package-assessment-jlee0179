@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/etc5523-2020/r-package-assessment-jlee0179/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-jlee0179/actions)
 <!-- badges: end -->
 
 The goal of covideu is to
@@ -34,5 +36,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(covideu)
+#> Loading required package: shiny
 ## basic example code
 ```

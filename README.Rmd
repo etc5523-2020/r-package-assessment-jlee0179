@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # covideu
 
 <!-- badges: start -->
+[![R build status](https://github.com/etc5523-2020/r-package-assessment-jlee0179/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-jlee0179/actions)
 <!-- badges: end -->
 
 The goal of covideu is to ...
@@ -43,3 +44,7 @@ library(covideu)
 ## basic example code
 ```
 
+```{r}
+as.Date(min(owid_eu$date))
+
+```
