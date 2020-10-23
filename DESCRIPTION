@@ -17,9 +17,12 @@ Depends:
 Imports: 
     tibble,
     ggplot2,
-    shiny
+    shiny,
+    base,
+    readr
 Suggests: 
     knitr,
     rmarkdown,
-    htmltools
+    htmltools,
+    testthat
 VignetteBuilder: knitr
