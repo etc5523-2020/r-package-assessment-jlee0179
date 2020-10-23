@@ -20,5 +20,6 @@ Imports:
     shiny
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    htmltools
 VignetteBuilder: knitr

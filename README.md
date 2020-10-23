@@ -39,8 +39,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(covideu)
-#> Loading required package: shiny
 library(tibble)
+library(htmltools)
 owid
 #> # A tibble: 48,169 x 41
 #>    iso_code continent location date       total_cases new_cases new_cases_smoot…
