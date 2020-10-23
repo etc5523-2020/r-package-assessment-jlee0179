@@ -1,3 +1,7 @@
+#' Launching "Covid-19 in EU" app
+#' 
+#' @param 
+#'
 #' @export
 launch_app <- function() {
   appDir <- system.file("app", package = "covideu")
