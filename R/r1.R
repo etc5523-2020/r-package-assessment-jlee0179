@@ -6,8 +6,8 @@
 #' @export
 ic <- function(id, color){
   
-  base::return(gsub("<.*?>", "", 
-              tags$style(HTML(paste0("#", id, "{color: ", color, ";}")))))
+  return(base::gsub("<.*?>", "", 
+              htmltools::tags$style(HTML(paste0("#", id, "{color: ", color, ";}")))))
   
   
 }
