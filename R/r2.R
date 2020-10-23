@@ -5,9 +5,6 @@
 #' @param y "count" as the y-axis of this graph, representing numbers of daily cases and deaths.
 #' @param fill "type_new"
 #' 
-#' @examples  
-#' draw_plot(dplyr::filter(owid_eu_long, date == "2020-08-27", location == "Austria), location, count, type_new)
-#' 
 #' @export
 draw_plot <- function(data, x, y, fill){
   ggplot2::ggplot(data, aes(x = {{x}}, y = {{y}}, fill = {{fill}})) +

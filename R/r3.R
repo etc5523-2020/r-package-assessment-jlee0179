@@ -1,5 +1,10 @@
+#' Enable selection of one country in COVID in EU Shiny app
+#' 
+#' @param 
+#'
+#' @export
 select1country <- function() {
-  selectInput(inputId = "locationn", "Please select one EU country",
+  shiny::selectInput(inputId = "locationn", "Please select one EU country",
             choices = c("Austria", "Italy", "Belgium",
                         "Latvia", "Bulgaria", "Lithuania",
                         "Croatia",	"Luxembourg", "Cyprus",

@@ -69,4 +69,55 @@ owid
 #> #   diabetes_prevalence <dbl>, female_smokers <dbl>, male_smokers <dbl>,
 #> #   handwashing_facilities <dbl>, hospital_beds_per_thousand <dbl>,
 #> #   life_expectancy <dbl>, human_development_index <dbl>
+select1country()
+```
+
+<!--html_preserve-->
+
+<div class="form-group shiny-input-container">
+
+<label class="control-label" for="locationn">Please select one EU
+country</label>
+
+<div>
+
+<select id="locationn"><option value="Austria" selected>Austria</option>
+<option value="Italy">Italy</option>
+<option value="Belgium">Belgium</option>
+<option value="Latvia">Latvia</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Croatia">Croatia</option>
+<option value="Luxembourg">Luxembourg</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Malta">Malta</option>
+<option value="Czechia">Czechia</option>
+<option value="Netherlands">Netherlands</option>
+<option value="Denmark">Denmark</option>
+<option value="Poland">Poland</option>
+<option value="Estonia">Estonia</option>
+<option value="Portugal">Portugal</option>
+<option value="Finland">Finland</option>
+<option value="Romania">Romania</option>
+<option value="France">France</option>
+<option value="Slovakia">Slovakia</option>
+<option value="Germany">Germany</option>
+<option value="Slovenia">Slovenia</option>
+<option value="Greece">Greece</option>
+<option value="Spain">Spain</option>
+<option value="Hungary">Hungary</option>
+<option value="Sweden">Sweden</option>
+<option value="Ireland">Ireland</option></select>
+
+<script type="application/json" data-for="locationn" data-nonempty="">{}</script>
+
+</div>
+
+</div>
+
+<!--/html_preserve-->
+
+``` r
+ic("id-name", "white")
+#> [1] "#id-name{color: white;}"
 ```
