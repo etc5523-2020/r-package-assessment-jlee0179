@@ -1,6 +1,7 @@
-#' Global coronavirus condition til 5th May, 2020
+#' Global condition of coronavirus-related information
 #' 
-#' This dataset consists of 
+#' Consisted of 41 variables, this dataset documents various coronavirus-related information, such as total deaths, new cases and life expectancy etc., over 211 countries.
+#' 
 #' @source 
 #' Our World in Data
-#' 
+"owid"

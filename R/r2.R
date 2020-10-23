@@ -1,6 +1,16 @@
-library(ggplot2)
+#' Draw the plot of daily cases and deaths numbers for locations. 
+#' 
+#' @param data The dataset, here we are using "owid_eu_long".
+#' @param x "location" as the x-axis of this graph.
+#' @param y "count" as the y-axis of this graph, representing numbers of daily cases and deaths.
+#' @param fill "type_new"
+#' 
+#' @examples  
+#' draw_plot(dplyr::filter(owid_eu_long, date == "2020-08-27", location == "Austria), location, count, type_new)
+#' 
+#' @export
 draw_plot <- function(data, x, y, fill){
-  ggplot(data, aes(x = {{x}}, y = {{y}}, fill = {{fill}})) +
+  ggplot2::ggplot(data, aes(x = {{x}}, y = {{y}}, fill = {{fill}})) +
     geom_col(stat = "identity", position = "dodge") +
     xlab("Location") +
     ylab("Number of confirmed deaths and cases") +
