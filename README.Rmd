@@ -1,0 +1,50 @@
+---
+output: github_document
+always_allow_html: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# covideu
+
+<!-- badges: start -->
+[![R build status](https://github.com/etc5523-2020/r-package-assessment-jlee0179/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-jlee0179/actions)
+<!-- badges: end -->
+
+The goal of covideu is to provide the main dataset used to create COVID-19 in EU app, along with several datasets that had been processed through data wrangling. In addition, three functions are developed to enable simpler and easier coding process within App.R.
+
+## Installation
+
+<!-- You can install the released version of covideu from [CRAN](https://CRAN.R-project.org) with: -->
+
+<!-- ``` r -->
+<!-- install.packages("covideu") -->
+<!-- ``` -->
+
+The development version can be installed from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("etc5523-2020/r-package-assessment-jlee0179")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(covideu)
+library(tibble)
+library(htmltools)
+owid
+select1country()
+ic("id-name", "white")
+```
