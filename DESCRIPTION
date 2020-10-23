@@ -1,5 +1,5 @@
 Package: covideu
-Title: COVID-19 in EU Shiny app based package
+Title: COVID-19 in EU Shiny App Based Package
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Joyce",
