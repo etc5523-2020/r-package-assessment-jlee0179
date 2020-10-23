@@ -1,8 +1,8 @@
 ---
-title: "Our World in Data: Coronavirus"
+title: "App Introduction"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Our World in Data: Coronavirus}
+  %\VignetteIndexEntry{App Introduction}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
