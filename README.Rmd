@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![R build status](https://github.com/etc5523-2020/r-package-assessment-jlee0179/workflows/R-CMD-check/badge.svg)](https://github.com/etc5523-2020/r-package-assessment-jlee0179/actions)
 <!-- badges: end -->
 
-The goal of covideu is to ...
+The goal of covideu is to provide the main dataset used to create COVID-19 in EU app, along with several datasets that had been processed through data wrangling. In addition, three functions are developed to enable simpler and easier coding process within App.R.
 
 ## Installation
 
@@ -41,10 +41,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(covideu)
-## basic example code
-```
-
-```{r}
-as.Date(min(owid_eu$date))
-
+library(tibble)
+owid
 ```

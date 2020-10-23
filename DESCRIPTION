@@ -1,14 +1,13 @@
 Package: covideu
-Title: What the Package Does (One Line, Title Case)
+Title: COVID-19 in EU Shiny app based package
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Joyce",
            family = "Lee",
            role = c("aut", "cre"),
            email = "jlee0179@student.monash.edu")
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Provides the main dataset used in "COVID-19 in EU"" app and other datasets that had been processed through data wrangling. "covideu" package also contains three functions which focus on simplifying the coding practices for creating the app.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
